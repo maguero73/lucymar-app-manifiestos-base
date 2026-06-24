@@ -10,4 +10,4 @@ resources:
 
 images:
 - name: maguero22/lucymar-api
-  newTag: latest
+  newTag: 3c65095
