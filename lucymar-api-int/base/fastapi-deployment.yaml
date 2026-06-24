@@ -22,7 +22,7 @@ spec:
 
         image: maguero22/lucymar-api
 
-        imagePullPolicy: Never
+        imagePullPolicy: Always
 
         ports:
         - containerPort: 9000
