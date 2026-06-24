@@ -4,6 +4,10 @@ kind: Kustomization
 namespace: app-demo
 
 resources:
-- fastapi-deployment.yaml 
+- fastapi-deployment.yaml
 - fastapi-service.yaml
 - fastapi-configmap.yaml
+
+images:
+- name: maguero22/lucymar-api
+  newTag: latest

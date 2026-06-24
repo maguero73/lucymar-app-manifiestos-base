@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
         - name: vue-frontend
-          image: vue-frontend:v5
+          image: maguero22/lucymar-ui
 
           ports:
             - containerPort: 80

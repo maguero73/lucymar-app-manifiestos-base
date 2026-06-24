@@ -6,3 +6,7 @@ namespace: app-demo
 resources:
 - frontend-deployment.yaml
 - frontend-service.yaml
+
+images:
+- name: maguero22/lucymar-ui
+  newTag: latest
