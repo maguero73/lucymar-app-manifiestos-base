@@ -9,4 +9,4 @@ resources:
 
 images:
 - name: maguero22/lucymar-ui
-  newTag: 65466a9
+  newTag: e052160
