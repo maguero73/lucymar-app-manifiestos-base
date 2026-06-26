@@ -5,7 +5,7 @@ metadata:
   name: fastapi-config
 
 data:
-  DB_HOST: host.minikube.internal
+  DB_HOST: mysql-service
   DB_PORT: "3306"
   DB_USER: root
   DB_NAME: lucymar_db
